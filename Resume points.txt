@@ -1,0 +1,30 @@
+Handle environments DEV, QA and PROD for various releases and designed instance strategies. 
+Use scripting languages like Perl, Bash and configuration management tools like Ansible and Puppet.
+Manage onsite OS/ Applications/ Services/ Packages using Puppet
+Rewrite many Puppet modules and Ansible Playbooks
+Experience in Branching, Merging, Tagging and maintaining the version across the environments using GIT on Linux and Windows platforms.
+Maintain Puppet servers and management application that are used to build and deployment of existing Java applications environment.
+Exposure with Jenkins installation, configuration and management.
+Automate several repetitive tasks like deployments/backups using Bash scripts or automation tools like Ansible.
+Worked on Docker container snapshots, attaching to a running container, removing images, managing directory structures and managing containers.
+Responsible for Builds and Deployments across multiple environments.
+Work on installing of Docker using Docker toolbox. Created Docker images using a Docker file. Worked on Docker container snapshots, removing images, and managing Docker volumes.
+Redesign and redeployed the Nagios implementation.
+Exposure to several AWS services like EC2, VPC, S3, Load Balancer, Autoscaling configurations etc.
+Exposure on installing, configuring Chef-server Enterprise On-Premise/WorkStation/ Bootstrapping the Nodes using Knife.
+Exposure to writing recipes and cookbooks and uploaded them to the Chef server.
+Experience in installing and configuring Monitor and Nagios monitoring system. 
+Experience in deploying Java & service-oriented applications and troubleshooting the build and deploy failures. 
+Experience with administrative tasks with CI tools like maintaining configurations and backups and maintain high availability. 
+Ability in development and execution of Shell Scripts and Perl Scripts. 
+Develop deployment scripts on a lifecycle automation platform for the orchestration, integration and automation of Configuration promotions and software releases.
+Establish, document and implement the best practices in the end to end application initiation and deployment processes.
+Responsible for setting up database and application synchronization as well as providing support in post-production process
+Assign the task of monitoring and maintaining the performance and usage of application and server as well as conduct preventative maintenance of servers
+Plan, execute and document deployment projects to deliver software environments (servers, applications and tools) including major configuration changes
+Experience on User Group Accounting, ACL, YUM Serve Work,
+Knowledge of  FTP Server, HTTP Server with APACHE Authentication, Kick-start,  NFS configure Samba Server.
+Should possess excellent troubleshooting, problem solving and analytical skills.
+Assign full responsibilities of identifying, researching and specifying the technologies and components of systems.
+Ability to quickly master new concepts and a proactive team player.
+Level 3 support post Service Production

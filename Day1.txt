@@ -1,0 +1,99 @@
+Today' Class
+
+
+
+
+what is vcs
+what is DVCS
+GI as DVCS
+3 Tree Arch of DVCS
+HEAD in Git
+GIT COmmands
+Staging 
+Branching and Merg
+2 way merge / 3 way merge
+merge and rebase
+cherry pick merge
+------------------------
+ 
+
+--------------
+--------------------------
+Next class
+
+squash
+stash
+diff
+rm
+
+GITHUB
+pull
+push 
+fetch
+
+
+fork
+clone
+taggging 
+GITHUB
+
+
+
+---------------------
+
+
+
+
+
+
+
+git add .
+git commit -m 
+git commit -a -m
+git branch
+git checkout
+git merge branch -- i will take it later with one example
+solve merge conflicts+
+
+-----------------------------
+
+git log --pretty=oneline
+$git show HEAD
+$ git reset --HARD <sha-code>
+$ git branch
+$git branch branchname
+
+git fsck --lost-found
+
+---------------
+
+git stash
+git stash apply
+----------
+
+git commit -a -m "without staging area"
+------------------------------------------
+git stash list
+
+https://git-scm.com/book/en/v1/Git-Tools-Stashing
+https://www.quora.com/Is-there-a-way-to-view-the-contents-of-a-git-stash-without-applying-it
+git stash show -p stash@{0}
+git stash list
+it stash apply stash@{2}
+git stash pop
+-----------------------------------
+
+merge conflict
+two way and 3 way merge
+-----------------------------
+
+git fetch
+git fetch followed by git merge origin/master
+git merge origin/master
+
+----------------
+
+
+
+
+

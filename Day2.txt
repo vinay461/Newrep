@@ -1,0 +1,60 @@
+GITHUB
+MAVEN
+JENKINS
+
+
+-----------------
+
+
+git stash list
+
+https://git-scm.com/book/en/v1/Git-Tools-Stashing
+https://www.quora.com/Is-there-a-way-to-view-the-contents-of-a-git-stash-without-applying-it
+git stash show -p stash@{0}
+git stash list
+it stash apply stash@{2}
+
+pop to extract from list
+
+unstash them 
+
+git reset --mixed .....
+
+git reset --mixed sample.txt
+
+hard reset and soft reset
+
+git reset --hard shacode
+git reset -soft shacode
+
+https://gist.github.com/tnguyen14/0827ae6eefdff39e452b
+-----------------------
+Squash
+
+https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/
+-----------------------------
+
+pull
+push 
+fetch
+
+git tag 1.1
+git tag 1.2
+git tag
+
+git tag
+git push origin --tags
+
+git clone --branch 1.0 https://github.com/manoj3004/28th_Dec.git
+will clone your entire repository but  head will HEAD  wil point to the tag
+with git checkout we can move to any tag 
+https://stackoverflow.com/questions/791959/download-a-specific-tag-with-git
+
+Need to be cleared : 
+Doubt : when you tag a branch or repo, it tags entire repo and same way when we push it pushes entire tags to the repository
+
+
+git clone --branch 2.1 <url >
+------------------------
+
+

@@ -1,0 +1,281 @@
+ 101  git init
+  102  git status
+  103  touch a.txt
+  104  git add .
+  105  git commit -m " added a.txt"
+  106  touch b.txt
+  107  git add .
+  108  git commit -m " added b.txt"
+  109  touch c.txt
+  110  git add .
+  111  git commit -m " added c.txt"
+  112  git status
+  113  ls
+  114  git log --pretty=oneline
+  115  touch d.txt
+  116  git add .
+  117  git commit -m " added d.txt"
+  118  git log --pretty=oneline
+  119  git show HEAD
+  120  clear
+  121  git show HEAD
+  122  git reset --hard 589e3d1df
+  123  git show HEAD
+  124  git fsck --lost-found
+  125  touch e.xt
+  126  rm e.xt 
+  127  touch e.txt
+  128  git add .
+  129  git commit -m " added e.txt"
+  130  git log --pretty=oneline
+  131  git reset --hard f0a6a8cb
+  132  git log --pretty=oneline
+  133  git fsck --lost-found
+  134  git reset --hard da601c5e
+  135  git log --pretty=oneline
+  136  clear
+  137  touch f.txt
+  138  git commit -m " added f.txt"
+  139  git lot --pretty=oneline
+  140  git log --pretty=oneline
+  141  git add .
+  142  git commit -m " added f.txt"
+  143  git log --pretty=oneline
+  144  touch a.txt
+  145  pico a.txt 
+  146  git status
+  147  git commit -a -m " direclty added a.txt"
+  148  git log --pretty=oneline
+  149  clear
+  150  git branch
+  151  git branch featurebranch
+  152  git branch
+  153  git  checkout   featurebranch
+  154  git branch
+  155  ls
+  156  git log --pretty=oneline
+  157  touch g.txt
+  158  git add .
+  159  git commit -m " added f.txt"
+  160  touch h.txt
+  161  git add .
+  162  git commit -m "added h.txt"
+  163  git log --pretty=oneline
+  164  git checkout master
+  165  git branch
+  166  git log --pretty=oneline
+  167  git merge featurebranch 
+  168  git log --pretty=oneline
+  169  git branch
+  170  git branch featurebranch1
+  171  git branch
+  172  git checkout featurebranch1 
+  173  ls
+  174  git log --pretty=oneline
+  175  touch sample.txt
+  176  git add .
+  177  git commit -m " added sample.txt"
+  178  touch sample1.txt
+  179  git add .
+  180  git commit -m " added sample1.txt"
+  181  git log --pretty=oneline
+  182  git checkout master 
+  183  git log --pretty=oneline
+  184  git merge featurebranch1 
+  185  git log --pretty=oneline
+  186  clear
+  187  ls
+  188  git branch
+  189  cat a.txt 
+  190  git branch featurebranch2
+  191  git checkout featurebranch2 
+  192  cat a.txt
+  193  pico a.txt 
+  194  git commit -a -m " modifiled a.txt file"
+  195  git branch
+  196  git checkout featurebranch2
+  197  git checkout master 
+  198  cat a.txt 
+  199  git merge featurebranch2
+  200  cat a.txt 
+  201  cd ..
+  202  mkdir 27th_dec_merge_conflict
+  203  cd 27th_dec_merge_conflict/
+  204  git init
+  205  ls
+  206  touch a.txt
+  207  git add .
+  208  git commit -m " added a.txt"
+  209  touch b.txt
+  210  git add .
+  211  git commit -m " added b.txt"
+  212  touch c.txt
+  213  git add .
+  214  git commit -m " added c.txt"
+  215  git status
+  216  ls
+  217  git branch
+  218  pico a.txt 
+  219  git commit -a -m "modifiled a.txt"
+  220  clear
+  221  git branch FB1
+  222  git branch FB2
+  223  git branch
+  224  git checkout FB1 
+  225  pico a.txt 
+  226  git commit -a -m " commited to FB1 branch"
+  227  cat a.txt 
+  228  git branch
+  229  git checkout master 
+  230  git merge FB1
+  231  cat a.txt 
+  232  git branch
+  233  git branch FB2 
+  234  git checkout FB2 
+  235  cat a.txt
+  236  pico a.txt
+  237  git commit -a -m "modified b.txt for FB2 branch"
+  238  cat a.txt 
+  239  git checkout master 
+  240  git merge FB2
+  241  pico a.txt 
+  242  git commit -a -m " resovled conflicts"
+  243  cat a.txt 
+  244  ls
+  245  git branch
+  246  ls
+  247  touch d.txt
+  248  touch e.txt
+  249  touch f.txt
+  250  git add 
+  251  git status
+  252  git add .
+  253  git status
+  254  git commit -m " added all filex in commit area"
+  255  git status
+  256  clear
+  257  git log --pretty=oneline
+  258  git rebase --abort
+  259  clear
+  260  git rebase --abort
+  261  git rebase -i HEAD~3
+  262  ls
+  263  cd ..
+  264  cd 27th_dec_merge_conflict/
+  265  git branch
+  266  git rebase --abort
+  267  git branch
+  268  clear
+  269  cd ..
+  270  ls
+  271  cd 27th_dec_merge_conflict/
+  272  ls
+  273  git log --pretty=online
+  274  git log --pretty=oneline
+  275  git branch
+  276  git remote add origin https://github.com/manoj3004/27th_Dec_repo.git
+  277  git push -u origin master
+  278  git push -u origin FB1
+  279  git push -u origin FB2
+  280  git branch
+  281  ls
+  282  git pull
+  283  ls
+  284  git branch
+  285  git pull 
+  286  git checkout FB2 
+  287  git branch
+  288  ls
+  289  git pull
+  290  git branch
+  291  git master
+  292  git checkout master
+  293  ls
+  294  git pull
+  295  ls
+  296  git branch
+  297  ls
+  298  touch harish.txt
+  299  git add .
+  300  git commit -m " added harish.txt"
+  301  ls
+  302  git push -u origin master
+  303  git pull 
+  304  ls
+  305  touch yogendra.txt
+  306  git push -u origin
+  307  git push origin
+  308  clear
+  309  ls
+  310  git  branch
+  311  git pull origin FB2
+  312  ls
+  313  git branch
+  314  git branch FB2
+  315  git checkout FB2
+  316  ls
+  317  clear
+  318  git branch
+  319  ls
+  320  touch pull.txt
+  321  git add .
+  322  git commit -m " added pull.txt"
+  323  git checkout master
+  324  git branch
+  325  git FB2
+  326  git checkout FB2
+  327  git branch
+  328  ls
+  329  git push 
+  330  clear
+  331  git branch
+  332  git checkout master 
+  333  git branch
+  334  git fetch
+  335  git status
+  336  ls
+  337  git merge origin/master
+  338  ls
+  339  git log --pretty=oneline
+  340  clear
+  341  git branch
+  342  git fetch
+  343  git status
+  344  git merge origin/master
+  345  ls
+  346  git log --pretty=oneline
+  347  clear
+  348  git branch
+  349  ls
+  350  git tag 1.0
+  351  touch tag.txt
+  352  git add .
+  353  git commit -m " added tag.txt"
+  354  git tag 2.0
+  355  git tag
+  356  git push origin --tags
+  357  cd ..
+  358  mkdir tag_clon
+  359  cd tag_clon/
+  360  git clone --branch 1.0 https://github.com/manoj3004/27th_Dec_repo.git
+  361  ls
+  362  cd 27th_Dec_repo/
+  363  ls
+  364  cd ..
+  365  ls
+  366  rm -rf 27th_Dec_repo/
+  367  git clone --branch 2.0 https://github.com/manoj3004/27th_Dec_repo.git
+  368  cd 27th_Dec_repo/
+  369  ls
+  370  cd ..
+  371  mkdir sangeeta
+  372  cd sangeeta/
+  373  git clone --branch 1.0 https://github.com/manoj3004/27th_Dec_repo.git
+  374  cd 27th_Dec_repo/
+  375  ls
+  376  cd ..
+  377  rm -rf 27th_Dec_repo/
+  378  git clone --branch 2.0 https://github.com/manoj3004/27th_Dec_repo.git
+  379  cd 27th_Dec_repo/
+  380  ls
+  381  history
